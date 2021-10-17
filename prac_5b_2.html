@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css"> 
+       <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <hr>
+    <h2>
+        Code for convert temperature centigrade to farenheit in C++
+    </h2>
+    <pre>
+    <b>
+    #include <bits/stdc++.h>
+    #define file freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+    #define ll long long 
+    using namespace std ;
+    double  cent_to_faren(double temp)
+    {
+        return (9*temp/5)+32;
+    }
+    int main()
+    {
+        file ;
+        double temp ;
+        printf("Enter temperature in centigrade:");
+        cin>>temp;
+        printf("temperature in farenhiet %lf:",cent_to_faren(temp));
+        return 0;
+    }
+    </b>
+    </pre>
+    <h3>CODE SNNIPET</h3>
+    <img width="75%" src="image/code.jpg" alt="code">
+    <H3>INPUT AND OUTPUT FOR CODE</H3>
+    <img width="75%" src="image/op.jpg" alt="io/op">
+    <h3>VARIBLE USED IN THE PROGRAM</h3>
+    <ol>
+        <li>temp varible double datatype for store centigrade temperature</li>
+    </ol>
+    <h3>TIME COMPLEXCITY</h3>
+    <p>Time complexcity for this programme is <strong>O(1)</strong> for solve  above formula </p>
+</body>
+</html>
