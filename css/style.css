@@ -1,0 +1,52 @@
+/*{
+    margin: 0;
+    padding: 0;
+}*/
+img
+{
+    border-radius: 30%;
+    border: 2px solid red;
+    margin-right: 40px;
+}
+.page
+{
+    padding: 10%;
+    margin: 5%;
+}
+nav{
+    color: white;
+    background-color: black;
+    
+    padding: auto;
+    text-decoration: none;
+}
+
+nav ul li a{
+    margin: 2vw;
+    padding: 2vh;
+    text-decoration: none;
+    color: white;
+}
+.cont1{
+    margin: 0;
+    display: inline-flex; 
+    width: 100%;
+    height: fit-content;
+}
+.cont1 card1{
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.cot1 card2{
+    
+    width: 70%;
+    padding: 10%;
+    align-self: flex-end;
+}
+.page
+{
+    background: rgb(240, 231, 231);
+}

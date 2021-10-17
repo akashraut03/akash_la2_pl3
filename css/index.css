@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+  font-size: large;
+  background-color: rgb(250, 243, 243);
+}
+nav{
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    background-color: black;
+}
+
+nav ul li a{
+    margin: 2vw;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+}
+
+    .heading {
+        background-color: white;
+        color: red;
+    }
+
+    body {
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        font-size: large;
+
+    }
+
+    .points {
+        color: blue;
+    }
+
+    img {
+        border-radius: 50px;
+        border: 1px solid brown;
+    }
+
+    table.ptable {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 10px;
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
